@@ -1,0 +1,204 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                background-color: rgb(22 22 22 / 90%);
+            }
+            
+            .main-wrapper {
+                background-color: #100101;
+                padding: 0px 50px;
+            }
+            
+            .main-wrapper .header {
+                height: 80px;
+            }
+            
+            .show-btn-wrap {
+                margin-left: auto;
+                width: 6%;
+                padding-top: 55px;
+            }
+            
+            .click-btn {
+                width: 46px;
+                height: 4px;
+                background-color: rgb(240, 229, 229);
+                margin-top: 6px;
+            }
+            
+            .click-btn:hover {
+                background-color: grey;
+            }
+            
+            .main-wrapper .content-section {
+                max-width: 920px;
+                margin: 0 auto;
+                margin-top: 78px;
+            }
+            
+            .main-wrapper .content-section .work-details-h {
+                margin: 14px 0px;
+            }
+            
+            .main-wrapper .my-menu-wrapper {
+                margin: 23px 0px;
+            }
+            
+            .main-wrapper ul {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            .main-wrapper li {
+                list-style: none;
+                margin-right: 29px;
+                margin-bottom: 24px;
+            }
+            
+            .main-wrapper .menu {
+                color: white;
+                background-color: #282d27;
+                padding: 7px;
+                font-size: 10px;
+                border-radius: 5px;
+            }
+            
+            .main-wrapper .menu:hover {
+                background-color: green;
+            }
+            
+            .main-wrapper .projects-wrapper {
+                margin: 0px 2px;
+                display: flex;
+            }
+            
+            .main-wrapper .projects-wrapper .projects {
+                height: 250px;
+                width: 47%;
+                margin: 0px 2px;
+                position: relative;
+            }
+            
+            .bg-blur {
+                background-color: grey;
+            }
+            
+            #proj-one {
+                background-image: url(./../images/edulane.png);
+            }
+            
+            #proj-two {
+                background-image: url(./../images/whatsapp-chat.png);
+            }
+            
+            #proj-three {
+                background-image: url(./../images/whatsapp-calls.png);
+            }
+            
+            .bg-blur {
+                background-color: grey;
+            }
+            
+            .work-menu {
+                position: absolute;
+                top: 96px;
+                left: 42px;
+                display: none;
+            }
+            
+            .projects:hover+.work-menu {
+                display: block;
+            }
+            
+            .footer .work-details-h {
+                padding: 21px 0px;
+            }
+            
+            .bg-img-cover {
+                background-size: cover;
+            }
+            
+            .padding-top {
+                padding-top: 85px;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            .text-white {
+                color: white;
+            }
+            
+            .text-grey {
+                color: grey;
+            }
+            
+            .redd {
+                background-color: red;
+                border: solid rgb(226, 24, 24);
+            }
+            /*menu page css starts*/
+            
+            .close-btn {
+                cursor: pointer;
+                font-size: 83px;
+                color: white;
+            }
+            
+            .close-btn:hover {
+                color: grey;
+            }
+            
+            .menu-container .nav {
+                width: 35%;
+                background-color: #29272770;
+                margin: 0 auto;
+                margin-top: 5em;
+                padding: 35px 0;
+                border-radius: 6px;
+            }
+            
+            .menu-container .nav ul li {
+                list-style: none;
+                margin-top: 33px;
+            }
+            
+            .menu-container .hide-btn {
+                padding-right: 41px;
+            }
+            
+            .menu-container .nav ul {
+                width: 22%;
+                margin: 0 auto;
+            }
+            
+            .menu-container .nav ul .menu-a {
+                color: grey;
+            }
+            
+            .menu-container .nav ul a {
+                font-size: 30px;
+            }
+            
+            .active {
+                color: white;
+            }
+            /*for responsive css*/
+            
+            @media screen and (max-width:750px) {
+                .main-wrapper .projects-wrapper .projects {
+                    width: 209px;
+                    margin: 13px 2px;
+                }
+                .main-wrapper .projects-wrapper {
+                    flex-wrap: wrap;
+                }
+                /*menu containr css*/
+                .menu-container .nav {
+                    width: 74%;
+                }
+            }
